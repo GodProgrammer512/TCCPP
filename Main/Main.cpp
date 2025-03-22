@@ -9,7 +9,7 @@
 int main(){
 
   // Important initialization variables:
-  uint8_t loop1{1}, times{0}, loop2{0};
+  unsigned char loop1{1u}, times{0u}, loop2{0u};
   int hoan{14}; // HOAN is an abreviation to Houses Of A Number.
   std::string choose1, choose2;
   long double n1;
