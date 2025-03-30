@@ -6,8 +6,8 @@
 
 
 // Main code:
-int main(){
-
+int main()
+{
   // Important initialization variables:
   unsigned char loop1{1u}, times{0u}, loop2{0u};
   int hoan{14}; // HOAN is an abreviation to Houses Of A Number.
@@ -18,7 +18,8 @@ int main(){
   std::cout << std::setprecision(hoan) << std::flush;
 
   // Looped code:
-  while(loop1){
+  while(loop1)
+  {
     CppUtils::Terminal::clear_terminal();
     std::cout << base_terminal_bold << std::flush;
     std::cout << "What type of convertion do you want to do?" << std::endl;
@@ -29,8 +30,8 @@ int main(){
     std::cin >> std::ws, choose1;
     CppUtils::Terminal::clear_terminal();
 
-    if(choose1 == "0"){
-
+    if(choose1 == "0")
+    {
       // Variables:
       --loop1, ++loop2;
 
